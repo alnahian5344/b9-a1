@@ -166,5 +166,171 @@ header {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     color: white;
-    
+
+}
+
+
+
+
+/*  --------------    65% OFF     -------------      */
+.percent {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* width: 383px;
+    height: 107px; */
+}
+
+.percent-desc {
+    color: #F00;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.percent-header {
+    color: #070211;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.percent-new-year {
+    width: 802.9px;
+    height: 500px;
+    background: url('../images/2024-01-07\ at\ 23.38.40_07d772a9.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+/*  --------------    welcome section    -------------      */
+
+.Welcome {
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/2024-01-07\ at\ 23.38.39_52fda0ea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 140px 50px 140px;
+}
+
+.Welcome-header {
+    width: 642px;
+    color: #FFF;
+
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    text-align: left;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.Welcome-description {
+    width: 750px;
+    height: 60px;
+    margin: 0px;
+    color: white;
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 126px;
+
+}
+
+
+.Welcome-join {
+    color: #FFF;
+    text-align: left;
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 150px;
+}
+
+
+
+/* -------------FOOTER SECTION ---------------*/
+
+.ft-container {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin-top: 0px;
+}
+
+.ft-heading {
+    width: 500px;
+    height: 80px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+
+
+/* -------------PARK ---------- */
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+    height: 482px;
+    text-align: center;
+    margin: 10px 140px 24px 140px;
+}
+
+.park-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 100px 385px 0px 385px;
+}
+
+.park-form {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+}
+
+.parkbtn {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
 }
