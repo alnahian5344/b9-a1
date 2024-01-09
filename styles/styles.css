@@ -272,26 +272,6 @@ header {
 
 
 
-/* -------------FOOTER SECTION ---------------*/
-
-.ft-container {
-    width: 1600px;
-    height: 609px;
-    background: #070211;
-    margin-top: 0px;
-}
-
-.ft-heading {
-    width: 500px;
-    height: 80px;
-    color: #FFF;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    margin-left: 140px;
-    margin-top: 100px;
-}
-
 
 
 /* -------------PARK ---------- */
@@ -333,4 +313,132 @@ header {
     line-height: normal;
     text-transform: uppercase;
 
+}
+
+span {
+    color: #F00;
+}
+
+
+
+
+
+/* -------------FOOTER SECTION ---------------*/
+
+.ft-container {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin-top: 100px;
+}
+
+.ft-heading {
+    display: flex;
+    gap: 400px;
+   
+
+}
+.ft-description{
+    width: 500px;
+    height: 80px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 140px;
+    /* margin-top: 100px; */
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.phone-no {
+    width: 350px;
+    height: 80px;
+    color: #F00;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+   
+}
+
+.fot {
+    display: block;
+    width: 64px;
+    height: 64px;
+    gap: 10px;
+    margin: 10px;
+}
+
+.flex-continer {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-img1 {
+    /* border-radius: 16px; */
+    background: url('../images/2024-01-07\ at\ 23.39.45_dd979133.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-img2 {
+    border-radius: 16px;
+    background: url('../images/inst.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.f-img3 {
+    border-radius: 16px;
+    background: url('../images/xxx.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-img4 {
+    border-radius: 16px;
+    background: url('../images/linkdin.jpg'), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Unsubscribe {
+    display: flex;
+    gap: 800px;
+}
+
+
+.right {
+    width: 350px;
+    height: 30px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 140px;
+    /* margin-top: 100px; */
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+.left-part {
+    color: white;
+    padding-top: 120px;
+    padding-right: 140px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.line{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
 }
