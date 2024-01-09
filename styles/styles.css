@@ -86,7 +86,7 @@ header {
 }
 
 .container {
-    margin: 10px 140px 24px 140px;
+    margin: 120px 140px 24px 140px;
 }
 
 
@@ -180,14 +180,12 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* width: 383px;
-    height: 107px; */
+
 }
 
 .percent-desc {
     color: #F00;
     text-align: center;
-    /* font-family: Inter; */
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -197,7 +195,6 @@ header {
 .percent-header {
     color: #070211;
     text-align: center;
-    /* font-family: Inter; */
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -215,8 +212,8 @@ header {
 }
 
 /*  --------------    welcome section    -------------      */
-
-.Welcome {
+.main-wlm {
+    display: flex;
     width: 1320px;
     height: 600px;
     text-align: center;
@@ -224,13 +221,24 @@ header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/2024-01-07\ at\ 23.38.39_52fda0ea.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px 140px 50px 140px;
+    margin: 120px 140px 50px 140px;
+}
+
+.overlap-img {
+    width: 320px;
+    height: 465px;
+    text-align: center;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/2024.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 120px 140px 50px 140px;  */
+    padding: 70px;
 }
 
 .Welcome-header {
     width: 642px;
     color: #FFF;
-
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
@@ -247,7 +255,6 @@ header {
     height: 60px;
     margin: 0px;
     color: white;
-    /* font-family: Inter; */
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -278,10 +285,9 @@ header {
 .subscribe-container {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-
     height: 482px;
     text-align: center;
-    margin: 10px 140px 24px 140px;
+    margin: 120px 140px 24px 140px;
 }
 
 .park-description {
@@ -312,7 +318,6 @@ header {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-
 }
 
 span {
@@ -329,16 +334,15 @@ span {
     width: 1600px;
     height: 609px;
     background: #070211;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .ft-heading {
     display: flex;
     gap: 400px;
-   
-
 }
-.ft-description{
+
+.ft-description {
     width: 500px;
     height: 80px;
     color: #FFF;
@@ -361,7 +365,7 @@ span {
     font-weight: 500;
     line-height: 40px;
     padding-top: 120px;
-   
+
 }
 
 .fot {
@@ -437,7 +441,7 @@ span {
     font-weight: 500;
 }
 
-.line{
+.line {
     width: 1320px;
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
